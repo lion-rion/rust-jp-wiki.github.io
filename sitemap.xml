@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://rust-jp-wiki.github.io/</loc>
+  <priority>1.0</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/index.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/update.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/waza.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/beginner.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/discord.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/news.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/server.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/beginner-server.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/start.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/setting.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/play.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/question.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/weapon.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/equipment.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/tool.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/architecture.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/install.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/food.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/sozai.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/comp.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/elext.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/another.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/craft.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/reserch.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/recycler.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/vend.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/blue.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/elextsystem.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/build.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/tree.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/agri.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/mix.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/remote.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/app.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/drone.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/call.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/party.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/building.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/Monument.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/loot.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/oil.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/jack.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/safezone.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/camp.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/gyoson.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/bokuzyo.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/kayak.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/boat.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/Rhib.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/kikyu.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/mini.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/sheli.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/horse.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/car.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/workcart.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/air.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/heli.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/apc.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/ch47.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/cargo.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/npc.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/haro.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/xmas.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/egg.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/raid.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-04-23T14:29:38+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/zyakuten.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/heal.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/bobm.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/gun.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-jp-wiki.github.io/nif.html</loc>
+  <priority>0.8</priority>
+</url>
+
+</urlset>
