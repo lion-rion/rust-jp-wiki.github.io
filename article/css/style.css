@@ -5,6 +5,8 @@ p {
     margin: 10px 0 10px 0;
 }
 
+
+
 body {
     
     font-family: Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
@@ -328,4 +330,7 @@ td {
     border: 1px solid #ddd;
 }
 
+@media screen and (max-width: 375px) { 
 
+    
+}
