@@ -9,7 +9,7 @@ p {
 
 body {
     
-    font-family: Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+    font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
     line-height: 1.6;
     font-size: 14px;
     background: #F2F2F2; 
@@ -335,12 +335,10 @@ td {
     p {
         margin: 10px 0 10px 0;
     }
-    
-    
-    
+     
     body {
         
-        font-family: Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+        font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
         line-height: 1.6;
         font-size: 14px;
         background: #F2F2F2; 
