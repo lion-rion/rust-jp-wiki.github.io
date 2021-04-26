@@ -527,11 +527,11 @@ td {
     /*見出し設定*/
     
     .banner {
-        font-size: 1.6rem;
-        line-height: 2.6rem;
+        font-size: 1.5rem;
+        line-height: 2.0rem;
         display: block;
         margin: 5px 0 20px;
-        padding: 10px 10px;
+        padding: 10px 10px 5px 10px;
         font-weight: bold;
         border-radius: 0 10px 0 0;
         background-color: #313131;
@@ -556,7 +556,7 @@ td {
     }
     
     .sub-title {
-        font-size: 20px;
+        font-size: 17px;
         padding: 0 8px;
         font-family: Meiryo,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
         font-weight: 700
@@ -645,7 +645,7 @@ td {
     
     th, td {
         padding: .5em .75em;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         vertical-align: top;
     }
     
