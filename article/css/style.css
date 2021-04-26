@@ -453,6 +453,7 @@ td {
     
     #contents-a {
         flex: 2.5;
+        margin-bottom: 10px;
     }
     
     .left-menu-wrap {
@@ -463,7 +464,7 @@ td {
         background: #fff;
         font-family: "Yu Gothic Medium",Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
         font-size: 12px;
-        margin-left: 10px;
+        margin-left: 11px;
     }
     
     .left-menu-wrap a {
@@ -573,7 +574,7 @@ td {
     footer {
         background: rgb(68,68,68);
         text-align: center;
-        padding: 26px;
+        padding: 20px;
         width: 100%;
     }
     

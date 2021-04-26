@@ -25,7 +25,7 @@ img {
 
 /*ヘッダー画像*/
 #title {
-    font-family: roboto;
+    font-family: roboto,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
     color: white;
     margin-left: 5px;
 }
@@ -117,7 +117,7 @@ header {
     float: left;
     box-shadow: 0 0 2px 0 rgb(0 0 0 / 20%);
     background: #fff;
-    font-family: "Yu Gothic Medium";
+    font-family: "Yu Gothic Medium",Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
     font-size: 12px;
 }
 
@@ -172,7 +172,7 @@ h2 {
     margin-left: 5px;
     color: black;
     margin: 20px 0 20px 0;
-    font-family: Segoe UI;
+    font-family: Segoe UI,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
 }
 
 
@@ -210,7 +210,7 @@ h2 {
     
     font-size: 20px;
     padding: 0 8px;
-    font-family: Meiryo;
+    font-family: Meiryo,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
     font-weight: 700
 }
 
@@ -573,4 +573,336 @@ th, td {
 
 .apc-g2 {
     max-width: 300px;
+}
+
+@media screen and (max-width: 414px) { 
+
+    p {
+        margin: 10px 0 10px 0;
+    }
+     
+    body {
+        
+        font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+        line-height: 1.6;
+        font-size: 14px;
+        background: #F2F2F2; 
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        display: block;
+        text-decoration: none;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .text {
+        font-family: Segoe UI,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+    }
+    
+    /*ヘッダー画像*/
+    #title {
+        font-family: roboto,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+        color: white;
+        margin-left: 5px;
+    }
+    
+    header {
+        background: #37474F;
+    }
+    
+    .header-icon {
+        width: 50px;
+    }
+    
+    #header-wrap {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 414px;
+        margin: 0 auto;
+    }
+    
+    /*上部メニュー設定*/
+    
+    #header-logo {
+        display: block;
+        width: 414px;
+        margin: 0 auto;
+    }
+    
+    #menu {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .up-nav-menu {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .up-menu-item {
+        width: 82.8px;
+        height: 40px;
+        font-weight: 700;
+        font-size: 11px;
+        border-left: 1px solid #F2F2F2;
+        
+    }
+    
+    .up-menu {
+        background: white;
+        max-width: 414px;
+        margin: 0 auto;
+        box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 1px 2px 0 rgb(0 0 0 / 24%);
+    }
+    
+    #last-up-menu-item {
+        border-right: 1px solid #F2F2F2;
+    }
+    
+    .up-nav-menu a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding: 0 5px;
+    }
+    
+    .up-nav-menu a:hover {
+        background: #ecf0f1;
+    }
+    
+    /*コンテンツ全体設定*/
+    
+    #contents-wrap {
+        width: 414px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .usuku {
+        opacity: 0.8;
+    }
+    
+    /*左メニュー設定*/
+    
+    #contents-a {
+        flex: 2.5;
+        margin-bottom: 10px;
+    }
+    
+    .left-menu-wrap {
+        width: 390px;
+        margin: 5px 0;
+        float: left;
+        box-shadow: 0 0 2px 0 rgb(0 0 0 / 20%);
+        background: #fff;
+        font-family: "Yu Gothic Medium",Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+        font-size: 12px;
+        margin-left: 11px;
+    }
+    
+    .left-menu-wrap a {
+        display: block;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 12px;
+        color: #1681b2;
+    }
+    
+    .left-menu-wrap h2 {
+        background: #38434b;
+        color: #fff;
+        font-size: 13px;
+        padding: 7px 15px;
+        text-align: left;
+    }
+    
+    h2 {
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .news {
+        padding: 0.4em 2em;
+        font-weight: bold;
+        border-top: 1px solid #f2f2f2;
+    }
+    
+    .news a {
+        margin: 0; 
+        padding: 0;
+    }
+    
+    .news-item:hover {
+        color: rgb(198,56,41);
+    }
+    
+    /*コンテンツ設定*/
+    
+    .article {
+        box-shadow: 0 0 2px 0 rgb(28 29 30 / 30%);
+        background: white;
+    }
+    
+    #contents-b {
+        flex: 7.5;
+        margin-left: 5px;
+        color: black;
+        margin: 10px 0 10px 0;
+        font-family: Segoe UI,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+    }
+    
+    
+    
+    /*--------------------------記事作成に必要なcss--------------------------------*/
+    
+    /*見出し設定*/
+    
+    .banner {
+        font-size: 1.5rem;
+        line-height: 2.0rem;
+        display: block;
+        margin: 5px 0 20px;
+        padding: 10px 10px 5px 10px;
+        font-weight: bold;
+        border-radius: 0 10px 0 0;
+        background-color: #313131;
+        border-bottom: 4px solid #C63C29;
+        color: #fff;
+    }
+    
+    .article {
+        padding: 10px 10px;
+    }
+    
+    .text {
+        font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    /*サブ見出し*/
+    .sub-title-wrap {
+        border-left: 3px solid black;
+        border-bottom: 2px solid black;
+    }
+    
+    .sub-title {
+        font-size: 17px;
+        padding: 0 8px;
+        font-family: Meiryo,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
+        font-weight: 700
+    }
+    
+    .careful {
+        color: #05a5ab;
+    }
+    
+    /*--------------------ここまで記事作成に必要なcss-------------------------------*/
+    
+    /*フッター設定*/
+    
+    footer {
+        background: rgb(68,68,68);
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    footer p {
+        color: white;
+        font-size: 0.8rem;
+    }
+    
+    /*表設定*/
+    
+    
+    table {
+        width: 100%;
+        margin: 1em 0;
+        padding: 0;
+        word-break: break-all;
+        word-wrap: break-word;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+    
+    table {
+        width: 100%;
+        margin: 1em 0;
+        padding: 0;
+        word-break: break-all;
+        word-wrap: break-word;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    table {
+        border-collapse: separate;
+        text-indent: initial;
+        border-spacing: 2px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+    
+    tbody th {
+        background: #f7f7f7;
+        border: 1px solid #ddd;
+        color: #505050;
+        text-align: center;
+    }
+    
+    th {
+        border: 1px solid #05a5ab;
+        background-color: #05a5ab;
+        color: #fff;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    th, td {
+        padding: .5em .75em;
+        font-size: 0.8rem;
+        vertical-align: top;
+    }
+    
+    th {
+        display: table-cell;
+        vertical-align: inherit;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    td {
+        border: 1px solid #ddd;
+    }
 }
