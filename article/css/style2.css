@@ -906,4 +906,246 @@ th, td {
     td {
         border: 1px solid #ddd;
     }
+
+        /*---------記事作成----------*/
+    .waza-contents {
+        display: flex;
+        justify-content: center;
+        max-width: 600px;
+        margin: 0 auto;
+        border-bottom: 1px solid #505050;
+    }
+
+
+
+    .waza-img {
+        border-radius: 5px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .waza-contents-info {
+        width: 500px;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 1.2rem;
+    }
+
+    .article-category {
+        background-color: #FFF687;
+        border-radius: 15px;
+        color: #000000;
+        padding: 5px 8px 5px 8px;
+    }
+
+    .waza-contents-info h1 {
+        margin-top: 0px;
+        margin-bottom: 1.2rem;
+    }
+
+    .article-date {
+        color: #8B8B8B;
+        margin-left: 1rem;
+    }
+
+
+    .waza-contents-info p {
+        color: #8B8B8B;
+    }
+
+    /*-------------------------weaponページ----------要編集--------------------*/
+    th, td {
+        font-size: 14px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .weapon-icon {
+        width: 20vw;
+    }
+
+    .weapon-name {
+        width: 20vw;
+    }
+
+    .ammo-level {
+        width: 5vw;
+    }
+
+    .ammo-use {
+        width: 10vw;
+    }
+
+    .repair {
+        width: 20px;
+    }
+
+    .weapon-name2 {
+        width: 200px;
+    }
+
+    /*---------------------equipページ--コンポーネント--回復--素材--それ以外----*/
+    .three-icon {
+        width: 20vw;
+    }
+
+    .three-name {
+        width: 30vw;
+    }
+
+    .equip-icon {
+        width: 20vw;
+    }
+
+    .equip-name {
+        width: 30vw;
+    }
+
+    /*----------------toolページ---------------------------*/
+
+    .tool-icon {
+        width: 20vw;   
+    }
+
+    .tool-name {
+        width: 30vw;
+    }
+
+    .tool-repair {
+        width: 50px;
+    }
+
+    /*-----------------------------設置物---architectureページ----------------------*/
+
+    .architecture-icon {
+        width: 20vw;
+    }
+
+    .architecture-name {
+        width: 20vw;
+    }
+
+    .architecture-repair {
+        width: 5vw;
+    }
+
+    .architecture-place {
+        width: 10vw;
+    }
+
+
+    /*-----------------エアドロページ-------------------*/
+
+    .air1 {
+        width: 200px;
+    }
+
+    .air2 {
+        width: 300px;
+    }
+
+    /*--------------npcページ-------------*/
+
+    .npc-img {
+        width: 150px;
+    }
+
+    .npc-hp {
+        width: 50px;
+    }
+
+    /*----------------車両------------------*/
+
+    .car-icon {
+        width: 150px;
+    }
+
+    .car-name {
+        width: 200px;
+    }
+
+    .car-reapir {
+        width: 50px;
+    }
+
+    .car-place {
+        width: 50px;
+    }
+
+    /*----------ハロウィンページ-----------*/
+
+    .haro-icon {
+        width: 200px;
+    }
+
+    .yazirushi {
+        width: 50px;
+    }
+
+    .haro-medel {
+        width: 200px;
+    }
+
+    .harowin-icon {
+        width: 150px;
+    }
+
+    .harowin-name {
+        width: 200px;
+    }
+
+    .harowin-cost {
+        width: 80px;
+    }
+
+    .harowin-icon2 {
+        width: 150px;
+    }
+
+    .harowin-name2 {
+        width: 100px;
+    }
+
+    .harowin-drop {
+        width: 150px;
+    }
+
+    .harowin-icon3 {
+        width: 150px;
+        background: #333333;
+    }
+
+    .xmas-g {
+        max-width: 500px;
+    }
+
+    .usume {
+        opacity: 0.1;
+    }
+
+    /*----電話ページ------*/
+
+    .call-icon {
+        width: 150px;
+
+    }
+
+    .call-name {
+        width: 50px;
+    }
+
+    .call-craft {
+    width: 50px;
+    }
+
+
+    /*----------apc設定---------*/
+
+    .apc-g1 {
+        width: 200px;
+    }
+
+    .apc-g2 {
+        max-width: 300px;
+    }
 }
