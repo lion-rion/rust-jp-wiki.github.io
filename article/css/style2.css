@@ -1075,43 +1075,43 @@ th, td {
     /*----------ハロウィンページ-----------*/
 
     .haro-icon {
-        width: 200px;
+        width: 30vw;
     }
 
     .yazirushi {
-        width: 50px;
+        width: 5vw;
     }
 
     .haro-medel {
-        width: 200px;
+        width: 10vw;
     }
 
     .harowin-icon {
-        width: 150px;
+        width: 20vw;
     }
 
     .harowin-name {
-        width: 200px;
+        width: 10vw;
     }
 
     .harowin-cost {
-        width: 80px;
+        width: 2vw;
     }
 
     .harowin-icon2 {
-        width: 150px;
+        width: 5vw;
     }
 
     .harowin-name2 {
-        width: 100px;
+        width: 10vw;
     }
 
     .harowin-drop {
-        width: 150px;
+        width: 10vw;
     }
 
     .harowin-icon3 {
-        width: 150px;
+        width: 20vw;
         background: #333333;
     }
 
