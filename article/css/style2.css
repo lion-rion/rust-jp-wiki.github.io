@@ -342,6 +342,9 @@ img {
     border-bottom: 1px solid #505050;
 }
 
+.xmas1 {
+    width: 500px;
+}
 
 
 .waza-img {
@@ -574,6 +577,25 @@ th, td {
 .apc-g2 {
     max-width: 300px;
 }
+
+.ext1 {
+    width: 600px;
+}
+
+
+/*---------------xmas------------------*/
+.xmas-icon {
+    width: 150px;
+}
+
+.xmas-name {
+    width: 200px;
+}
+
+.xmas-cost {
+    width: 100px;
+}
+
 
 @media screen and (max-width: 500px) { 
 
@@ -981,7 +1003,7 @@ th, td {
     }
 
     .weapon-name2 {
-        width: 200px;
+        width: 30vw;
     }
 
     /*---------------------equipページ--コンポーネント--回復--素材--それ以外----*/
@@ -1148,4 +1170,25 @@ th, td {
     .apc-g2 {
         max-width: 300px;
     }
+    /*-------------電気----------------------*/
+    .ext1 {
+        width: 95vw;
+    }
+    
+    .xmas1 {
+        width: 95vw;
+    }
+
+    .xmas-icon {
+        width: 25vw;
+    }
+
+    .xmas-name {
+        width: 15vw;
+    }
+
+    .xmas-cost {
+        width: 1vw;
+    }
+
 }
