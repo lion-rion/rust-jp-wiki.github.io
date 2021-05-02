@@ -350,6 +350,23 @@ img {
     width: 600px;
 }
 
+.xmas3 {
+    width: 400px;
+}
+
+.xmas4 {
+
+    width: 300px;
+}
+
+.xmas5 {
+    width: 200px;
+}
+
+.xmas6 {
+    width: 100px;
+}
+
 .waza-img {
     border-radius: 5px;
 	height: 150px;
@@ -1196,6 +1213,26 @@ th, td {
 
     .xmas2 {
         width: 95vw;
+    }
+
+    .xmas1 {
+        width: 80vw;
+    }
+
+    .xmas3 {
+        width: 60vw;
+    }
+
+    .xmas4 {
+        width: 40vw;
+    }
+
+    .xmas5 {
+        width: 30vw;
+    }
+
+    .xmas6 {
+        width: 20vw;
     }
 
 }
