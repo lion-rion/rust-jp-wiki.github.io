@@ -1,6 +1,16 @@
 
 /*共通設定*/
 
+ol{
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+.hyou { 
+    font-size: 17px;
+}
+
 body {
 
     font-family:  Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
@@ -1232,6 +1242,17 @@ th, td {
 
     .xmas6 {
         width: 20vw;
+    }
+
+    ol{
+        counter-reset: item;
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      
+    .hyou {
+        font-size: 17px;
     }
 
 }
