@@ -1255,4 +1255,8 @@ th, td {
         font-size: 15px;
     }
 
+    .adsbygoogle {
+        width: 95vw;
+    }
+
 }
