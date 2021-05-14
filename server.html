@@ -3,8 +3,9 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>【公式wiki】Rust攻略wiki｜TOP</title>
-        <meta name="description" content="Rustの公式攻略サイト、Rust攻略wikiです。最新情報やゲームに関する情報をお届け！">
+        <title>ゲームの説明 |【Rust】</title>
+        <meta name="description" content="サーバーの選び方、ワイプなどについて詳しく解説します。">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
         <!--css設定-->
 
@@ -16,8 +17,8 @@
     <body>
         <header>
             <div id="header-wrap">
-                <img class="header-icon" src="article/image/ピクチャ/ファビコン/RUSTアイコン.png" alt="">
-                <h1 id="title">Rust攻略Wiki【公式】</h1>
+                <a href="https://rust-jp-wiki.github.io/index.html"><img class="header-icon" src="article/image/ピクチャ/ファビコン/RUSTアイコン.png" alt=""></a>
+                <a href="https://rust-jp-wiki.github.io/index.html"><h1 id="title">Rust攻略Wiki【公式】</h1></a> 
             </div>
         </header>
         <main>
@@ -26,7 +27,7 @@
                     <nav class="up-menu"> 
                         <ul class="up-nav-menu">
                             <li><a class="up-menu-item" href="index.html">ホーム</a></li>
-                            <li><a class="up-menu-item" href="update.html">アップデート</a></li>
+                            <li><a class="up-menu-item" href="update.html">アプデ</a></li>
                             <li><a class="up-menu-item" href="waza.html">小技・裏技</a></li>
                             <li><a class="up-menu-item" href="beginner.html">初心者</a></li>
                             <li><a class="up-menu-item" id="last-up-menu-item" href="discord.html">Discord</a></li>
@@ -49,7 +50,7 @@
                         <div class="left-nav-menu">
                             <h2>初心者メニュー</h2>
                             <ul>
-                                <li class="news"><a class="news-item" href="server.html">サーバー参加方法</a></li>
+                                <li class="news"><a class="news-item" href="server.html">ゲームの説明</a></li>
                                 <li class="news"><a class="news-item" href="beginner-server.html">初心者おすすめサーバー</a></li>
                                 <li class="news"><a class="news-item" href="start.html">序盤の進め方</a></li>
                                 <li class="news"><a class="news-item" href="setting.html">ゲーム設定</a></li>
@@ -161,17 +162,75 @@
                     <div class="article-wrap">
                         <div class="article">
                             <div class="banner">
-                                <h3 class="banner-title">サーバー</h3>
+                                <h3 class="banner-title">ゲームの説明</h3>
                             </div>
-                            <p class="usuku">2</p>
-                            <img src="article/image/work/h1.png" alt="">
                             <div class="sub-title-wrap">
                                 <h4 class="sub-title">
-                                ※現在準備中です。
+                                サーバーとは
                                 </h4>
                             </div>
-                            
-                                
+                            <p>まずサーバーとは、簡単にいうと部屋です。rustをプレイするにはこの部屋に入る必要があります。
+                            </p>
+                            <a href="article/image/server/102.png"><img src="article/image/server/102.png" alt=""></a>
+                            <p>サーバーの種類は複数あり上から説明すると</p>
+                            <div class="hyou">
+                                <ol>
+                                    <li>&#9312; <span style="color: #7F3C30;"> Official: </span>facepunchが運営している公式サーバー</li>
+                                    <p>公式で運営されているため規模が大きく、管理人による不正などがないため人気のサーバーであるが、
+                                        RUSTの中で最も参加プレイヤー率が高く、簡易的な家を建てるとすぐ壊されるので初心者には向かない。またチーターにも遭遇しやすいので注意が必要。</p>
+                                    <li>&#9313; <span style="color: #7F3C30;">Community</span>: 一般人の運営しているサーバー</li>
+                                    <p>公式ではない人がサーバーを運営しているのでルールはいろいろだが、ソロ専用だったり、人数が少なかったりするので初心者におすすめなサーバーが多い。ただ、
+                                        管理人がアイテムを出してプレイヤーに渡すなど癒着をしているサーバーも多いので選ぶ際には注意が必要。
+                                    </p>
+                                    <li>&#9314; <span style="color: #7F3C30;">Modded</span>: モッド（拡張機能）が使用されているサーバー</li>
+                                    <p>戦闘専用や、建築練習、ヘリや車の操縦の練習などができるサーバーがある。modを使っているため、独自のコマンドやルールが存在するのでチェックしてから入るといい。
+                                    </p><br>
+                                    <p>friendsは自分のsteamフレンドが参加しているサーバー。下にあるfavoriteは自分が星マークをつけたサーバーが表示されます。
+                                        その更に下のhistoryは自分が過去に遊んだサーバーが表示されます。
+                                    </p>
+
+                                </ol>
+                            </div>
+                            <div class="sub-title-wrap">
+                                <h4 class="sub-title">
+                                ワイプとは
+                                </h4>
+                            </div>
+                            <p>サーバーは一定期間でリセットされ、建築した建物がすべて消され、マップが新しくなります。</p>
+                            <p>リセットには二種類あり、マップだけがリセットされる<span class="careful2">MAPワイプ</span>と覚えたレシピがリセットされる<span class="careful2">
+                                BP（ブループリント）ワイプ</span>があります。</p>
+                            <p>ワイプは別々に行われることもあればマップとBPが同時にリセットされることもあります。</p>
+                            <p><span class="careful">※公式サーバーは毎月第一金曜日に強制ワイプが行われます。ただし例外もあるのでご自身で一度確認しましょう。</span></p>
+
+                            <p>ワイプが行われる理由としては、一つの勢力が島全体を支配してしまうのを防ぐためや、プレイヤーのレベル差が広がりすぎないようにするなど
+                                いろいろな理由があります。
+                            </p>
+                            <div class="sub-title-wrap">
+                                <h4 class="sub-title">
+                                初めて遊ぶ際のアドバイス
+                                </h4>
+                            </div>
+                            <h1> &#9312; 戦闘をあまりしたくないときはPvEサーバーがおすすめ</h1>
+                            <p>基本戦闘をメインとしてプレーしている人が多いため、「あまり戦いたくない。」「プレイヤーを殺すのに戸惑う。」「建築に専念したい。」などは<span class="careful2">PVEサーバー</span> がおすすめ。操作に慣れる練習にもなる。
+                                PvEでプレイするときはRustのサーバー検索(search servers..)で[PvE]と入力すればサーバーが表示されますが公式のサーバーではPvEは存在しないのでご注意を</p>
+                            <a href="article/image/server/103.png"><img src="article/image/server/103.png" alt=""></a>  
+                            <h1>&#9313; ソロプレイは気を付けて</h1> 
+                            <p> このゲームは人数が多ければ多いほど強力なゲームです。なのでソロプレイするときはより一層自分の家を気を付けなくてはなりません。大きすぎたり、モニュメントの近くだと狙われやすいので注意
+                                もしソロプレイが好きな人はソロ専用サーバーもあるのでそこに行くのがいいでしょう。</p> 
+                            <h1> &#9314;<span class="careful2">※よそのプレイヤーは基本信用しちゃダメ←超重要</span></h1>
+                            <p>Rustは裏切りが当たり前のゲームです。私は始めたてのころにサーバー内の人と仲良くなり、フレンドを交換して数日プレイしましたが、ある日ログインしたとき、拠点内の物資
+                                が全部なくなってフレンドも消されていました。ですので遭遇して攻撃してこないからと言って不用意に近づいたりしないように！</p><p>特に「<span class="careful2">I'm frendly!</span> 」
+                            や「<span class="careful2">Frendly please!</span> 」と言ってくる人には気をつけましょう！ </p> 
+                            <h1> &#9315;自信がない時は過疎サーバーで生活</h1>
+                            <p>始めたての頃は人のいないサーバーで一通り遊び方を勉強するのが一番いいと思います。
+                                いきなり大人数のサーバーで生活を始めても家を取られたりと精神的にダメージを受けやすいので無理せず、人数が少ないところでの生活をおススメ</p>
+                            <h1> &#9316; <span class="careful">ping</span> の高いサーバーはつらい</h1>
+                            <p>pingというワードはご存知だと思いますが簡単に説明するとサーバーのある場所までの距離だと思ってください。
+                                pingが200だとアメリカやっヨーロッパあたりで、pingが20~50だと日本や韓国です。pingが低いサーバーのほうが遅延が少なく快適に過ごせるのでおすすめ！
+                            </p>
+                            <h1> &#9317; めげないように</h1>
+                            <p>人数が多いサーバーとかだとログオフの間に家を抜かれ、インした時にはすっからかんという事がありますが、サ
+                                ーバー内で覚えたレシピは各サーバーで設定されているBPワイプが来るまでは覚えているので、基本覚えていないアイテムはリサーチして覚えておこう！</p>
                         </div>
                     </div>
                 </div>

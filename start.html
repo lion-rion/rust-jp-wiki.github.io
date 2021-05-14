@@ -3,21 +3,22 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>【公式wiki】Rust攻略wiki｜TOP</title>
-        <meta name="description" content="Rustの公式攻略サイト、Rust攻略wikiです。最新情報やゲームに関する情報をお届け！">
+        <title>序盤の進め方 |【Rust】</title>
+        <meta name="description" content="Rustでの序盤の進め方を詳しく解説します！ 初心者必見の内容です。">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
         <!--css設定-->
 
         <link rel="stylesheet" href="article/css/reset.css">
-        <link rel="stylesheet" href="article/css/style2.css">
+        <link rel="stylesheet" href="article/css/style3.css">
         <link rel="icon" type="image/x-icon" href="article/image/ピクチャ/ファビコン/RUSTアイコン.png">
        
     </head>
     <body>
         <header>
             <div id="header-wrap">
-                <img class="header-icon" src="article/image/ピクチャ/ファビコン/RUSTアイコン.png" alt="">
-                <h1 id="title">Rust攻略Wiki【公式】</h1>
+                <a href="https://rust-jp-wiki.github.io/index.html"><img class="header-icon" src="article/image/ピクチャ/ファビコン/RUSTアイコン.png" alt=""></a>
+                <a href="https://rust-jp-wiki.github.io/index.html"><h1 id="title">Rust攻略Wiki【公式】</h1></a> 
             </div>
         </header>
         <main>
@@ -26,7 +27,7 @@
                     <nav class="up-menu"> 
                         <ul class="up-nav-menu">
                             <li><a class="up-menu-item" href="index.html">ホーム</a></li>
-                            <li><a class="up-menu-item" href="update.html">アップデート</a></li>
+                            <li><a class="up-menu-item" href="update.html">アプデ</a></li>
                             <li><a class="up-menu-item" href="waza.html">小技・裏技</a></li>
                             <li><a class="up-menu-item" href="beginner.html">初心者</a></li>
                             <li><a class="up-menu-item" id="last-up-menu-item" href="discord.html">Discord</a></li>
@@ -49,7 +50,7 @@
                         <div class="left-nav-menu">
                             <h2>初心者メニュー</h2>
                             <ul>
-                                <li class="news"><a class="news-item" href="server.html">サーバー参加方法</a></li>
+                                <li class="news"><a class="news-item" href="server.html">ゲームの説明</a></li>
                                 <li class="news"><a class="news-item" href="beginner-server.html">初心者おすすめサーバー</a></li>
                                 <li class="news"><a class="news-item" href="start.html">序盤の進め方</a></li>
                                 <li class="news"><a class="news-item" href="setting.html">ゲーム設定</a></li>
@@ -165,9 +166,68 @@
                             </div>
                             <div class="sub-title-wrap">
                                 <h4 class="sub-title">
-                                    
+                                    ロードが長い
                                 </h4>
                             </div>
+                            <p>サーバーに入るときにはもちろんロードがあります。他のゲームに比べてRustはアイテムや施設の量が大きいので
+                                ロードにかなり時間がかかります。<span class="careful2">※なのでゲームをインストールする際はSSDがおすすめ</span>
+                            </p>
+                            <p>だいたい1~3分ほどなので待ちましょう。</p>
+                            <img class="start-img" src="article/image/start/i1.png" alt="">
+                            <div class="sub-title-wrap">
+                                <h4 class="sub-title">
+                                    ゲームの始まり
+                                </h4>
+                            </div>
+                            <img class="start-img" src="article/image/start/i2.png" alt="">
+                            <p>ロードが終わるとだいたい海の近くにスポーンします。眠った状態で始まるので何かキーを押して起こしてあげてください。</p>
+                            <p>起きると始めに岩と松明を持っています。マウスのホイールを使ってアイテムを選択した後、岩は<span class="careful">左クリック</span>で打撃、
+                                <span class="careful2">右クリック</span>で投げモーション、右クリックしたまま左クリックすると投げることができます。
+                                 </p>
+                            <p>松明は<span class="careful2">右クリック</span>でつけることができます。 </p>
+                            <div class="sub-title-wrap">
+                                <h4 class="sub-title">
+                                    採集
+                                </h4>
+                            </div>
+                            <p>始めに岩を使って家を建てたり、ツールを作るための資源を入手しましょう。</p>
+                            <img class="start-img" src="article/image/start/i3.png" alt="">
+                            <p>画像に映っている白い物が石です。他の岩を見分けるのが最初は難しいですが、白くて一部光ってる部分があるものが石です。</p> 
+                            <p>光ってる部分を叩くと効率よく石を採集できます。また採集していると小さくなって最後にはなくなってしまいます。</p>
+                            <img class="start-img" src="article/image/start/i5.png" alt="">
+                            <p>マップのあらゆる場所に生えてる木は採集可能で、一度殴ると赤く×のついたマーカーが出てきます。このマークの部分をたたくことで石と同様、効率よく採集できます。</p> 
+                            <img class="start-img" src="article/image/start/i7.png" alt="">
+                            <p>また草むらに生えてる麻は服を作ったり寝袋を作るのに必要なので木や石を採集しながら最低3つ採集しましょう！</p>
+                            <img class="start-img" src="article/image/start/i6.png" alt="">
+                            <p>石と木が集まったらツールをクラフトしましょう。Qキーを押してクラフト画面に移動し、<span class="careful">TOOLS</span>にある石斧(STONE HATCHET)と
+                                隣にある石のつるはしを作成しましょう。</p>
+                            <p>ツールを作成すると採集効率が格段に上がるのと、採集量が増えます。また近接武器としても使えるので作るに越したことはありません。</p>
+                            <img class="start-img" src="article/image/start/i8.png" alt="">
+                            <p>ツールを作ったら木と石と麻を採集し、画像内のアイテム（工具棚、ハンマー、鍵、木のドア、建築計画書、寝袋を作成しましょう。
+                                また家を作るために石と木が必要です。
+                            </p>
+                            <img class="start-img" src="article/image/start/i9.png" alt="">
+                            <p>準備が出来たら<span class="careful">建築計画書</span>を持ち、土台を建築しましょう。 </p>
+                            <p>建築計画書を持ったまま右クリックをホールドすると土台一覧が出てきて、選択できます。まずは四角い土台を画像のようにおいていきましょう。</p>
+                            <img class="start-img" src="article/image/start/i10.png" alt="">
+                            <p>また<span class="careful">ハンマー</span>を持って枝でできた壁に近づき、右クリをホールドすると土台や壁の強化ができます。枝の土台、壁の耐久は10で
+                            すぐに壊されるので木か石で強化しましょう。</p>
+                            <img class="start-img" src="article/image/start/i11.png" alt="">
+                            <p>強化が完了したら工具棚を拠点の好きな場所におきましょう。</p>
+                            <p class="careful2">※工具棚は拠点の中で最も大切なのでできるだけ壊されにくい場所においてください。</p>
+                            <img class="start-img" src="article/image/start/i12.png" alt="">
+                            <p>次は三角の土台を使って入り口を作りましょう。好きな場所に<span class="careful2"> ドアウェイ </span>（ドアをつけるようにくりぬかれた壁）を建築してドアを設置しましょう。</p> 
+                            <img class="start-img" src="article/image/start/i13.png" alt="">
+                            <p>ドアを設置したら次は鍵をつけましょう。鍵はドアに近づいて左クリックで設置できます。デフォルトでロックはかかるようになっています。鍵の部分が<span class="careful2"> 赤</span>くなっていたらロックされているのでご安心を。</p>
+                            <img class="start-img" src="article/image/start/i14.png" alt="">
+                            <p>ここまで出来たら拠点の好きな場所に寝袋をおきましょう。万が一死んでしまった場合もここでスポーンできるようになります。</p>
+                            <p>またこのあたりで右下の体力ゲージと空腹ゲージが少なくなっていることでしょう。<span class="careful2">※主は撮影のため回復した状態になっています。</span></p>
+                            <p>もし体力が少なくなって画面に血の色が増えてきた場合はどこかで死んで再スポーンし、ゲージを回復するのもありです。<span class="careful2">※</span>死亡できる場所がない場合は最悪、
+                                F1を押してkillと入力し、エンターを押すと自殺できます。よく使うコマンドなので覚えていて損はありません。</p>
+                            <img class="start-img" src="article/image/start/i15.png" alt="">
+                            <p>最後に超重要なことを伝えます。Rustでは拠点を維持するために家賃のようなものが必要です。<span class="careful"> 工具棚 </span>(大きい箱のようなもの)に近づいて開くと、
+                            </p>
+
                         </div>
                     </div>
                 </div>
