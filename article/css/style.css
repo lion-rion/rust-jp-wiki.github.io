@@ -1,5 +1,56 @@
+.item-3{
+    display: block;
+    background-color: #FFC103;
+    border-radius: 5px;
+    bottom: 20px;
+    position: absolute;
+    height: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 0px 2px 0px 2px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
 
-/*共通設定*/
+
+.item-1{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.item-2{
+    border-radius: 5px;
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    width: 97%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 0px 4px 0px 10px;
+    font-size: 12px;
+    background: -webkit-linear-gradient(bottom,#000 0,rgba(31,31,31,0) 100%);
+    background: linear-gradient(0deg,#000 0,rgba(31,31,31,0) 100%);
+    color: #FFFFFF;
+    
+}
+
+.horizontal-list{
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+    
+    justify-content: center;
+}
+
+.item-box{
+    width: 200px;
+    padding: 3px;
+    position: relative;
+}
 
 p {
     margin: 10px 0 10px 0;
@@ -128,7 +179,7 @@ header {
 
 .left-menu-wrap {
     width: 250px;
-    margin: 20px 0;
+    margin: 10px 0;
     float: left;
     box-shadow: 0 0 2px 0 rgb(0 0 0 / 20%);
     background: #fff;
@@ -186,7 +237,7 @@ h2 {
     flex: 7.5;
     margin-left: 5px;
     color: black;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 20px 0;
     font-family: Segoe UI,Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Meiryo,"メイリオ",Meiryo,"メイリオ",Osaka,MS PGothic,arial,helvetica,sans-serif;
 }
 
@@ -661,4 +712,55 @@ td {
     td {
         border: 1px solid #ddd;
     }
+
+    .horizontal-list {
+        justify-content: initial;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+  
+    .item-box {
+        margin: 10px 5px 0px 5px;
+        display: inline-block;
+        width: 60%;
+        height: 15vh;
+        font-size: 10px;
+    }
+
+    .item-1{
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    }
+
+
+    .item-2 {
+        border-radius: 5px;
+        position: relative;
+        bottom: 50px;
+         width: 100%;
+        height: 40px;
+        padding: 15px 4px 0px 4px;
+        font-size: 14px;
+        background: -webkit-linear-gradient(bottom,#000 0,rgba(31,31,31,0) 100%);
+        background: linear-gradient(0deg,#000 0,rgba(31,31,31,0) 100%);
+        color: #FFFFFF;
+        margin-bottom: -60px;
+     
+    }
+
+    .item-3{
+        background-color: #FFC103;
+        color: #FFF;
+        border-radius: 5px;
+        bottom: 35px;
+        position: relative;
+        height: 18px;
+        margin: 0 65% 0 3%;
+        padding: 0px 2px 0px 5px;
+        font-size: 11px;
+        font-weight: bold;
+        margin-bottom: -115px; /*余白を解消する値を入れます*/
+    }
+  
 }
