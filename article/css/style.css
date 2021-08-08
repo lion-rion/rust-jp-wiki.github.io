@@ -1,3 +1,18 @@
+.item-4{
+    display: block;
+    background-color: #ff7d03;
+    border-radius: 5px;
+    bottom: 20px;
+    position: absolute;
+    height: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 0px 2px 0px 2px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
 .item-3{
     display: block;
     background-color: #FFC103;
@@ -15,6 +30,8 @@
 
 
 .item-1{
+    height: 120px;
+    object-fit: cover;
     display: flex;
     align-items: flex-end;
     border-radius: 5px;
@@ -29,7 +46,7 @@
     align-items: flex-end;
     width: 97%;
     height: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     padding: 0px 4px 0px 10px;
     font-size: 12px;
     background: -webkit-linear-gradient(bottom,#000 0,rgba(31,31,31,0) 100%);
@@ -729,6 +746,7 @@ td {
     }
 
     .item-1{
+        object-fit: cover;
         border-radius: 5px;
         box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
     }
@@ -751,6 +769,21 @@ td {
 
     .item-3{
         background-color: #FFC103;
+        color: #FFF;
+        border-radius: 5px;
+        bottom: 35px;
+        position: relative;
+        height: 18px;
+        margin: 0 65% 0 3%;
+        padding: 0px 2px 0px 5px;
+        font-size: 11px;
+        font-weight: bold;
+        margin-bottom: -115px; /*余白を解消する値を入れます*/
+    }
+
+
+    .item-4{
+        background-color: #ff7d03;
         color: #FFF;
         border-radius: 5px;
         bottom: 35px;
