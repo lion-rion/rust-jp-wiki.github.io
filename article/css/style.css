@@ -194,6 +194,12 @@ header {
     margin-right: 10px;
 }
 
+#contents-c {
+        position: absolute;
+        top: 500px;
+        left: 10px;
+}
+
 .left-menu-wrap {
     width: 250px;
     margin: 10px 0;
