@@ -66,6 +66,15 @@
     justify-content: center;
 }
 
+.index-1{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 17px;
+    margin: 10px 10px 10px 10px;
+
+}
+
 .item-box{
     width: 200px;
     padding: 3px;
