@@ -1,19 +1,34 @@
 .waza-contents2{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     width: 200px;
+    border-top: green 5px solid;
+    border-left: rgb(236, 236, 236) 3px solid;
+    border-bottom: rgb(236, 236, 236) 3px solid;
+    border-right: rgb(236, 236, 236) 3px solid;
+    justify-content: center;
 }
 
 .waza-wrap2{
-
 }
 
 .waza-p{
-    display: flex;
+    font-family: YakuHanJPs_Narrow,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica","Arial",sans-serif;
+    font-weight: bold;
 }
 
 .waza-time{
-    display: flex;
+    border-top: rgb(236, 236, 236) 3px solid;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.waza-img2{
+  width: 150px;
+  height: 70px;
+  object-fit: cover;
+    
 }
 
 .header-icon{
