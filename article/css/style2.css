@@ -1,3 +1,81 @@
+/*裏技-----------------------*/
+.xurawaza{
+    background: none;
+    width: auto;
+    height: auto;
+    margin: 0 3px 0 0;
+    line-height: 1.0;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 0.688rem;
+    padding: 0.2em 0.6em 0.15em 0.4em;
+    display: inline-block;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #555;
+}
+
+.clearfix{
+    min-height: 1px;
+}
+
+.listContent{
+
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    clear: both;
+    border-bottom: 1px dotted #666;
+    position: relative;
+    width: 100%;
+    margin: 0 0 0 5px;
+    background-color: white;
+    display: flex;
+}
+
+.thuming{
+    margin-top: 8px;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 16%;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 50%) inset, 0 5px 10px 0 rgb(255 255 255) inset, 0 6px 5px -3px rgb(0 0 0 / 50%), 0 10px 20px -20px rgb(0 0 0);
+}
+
+.spec{
+    margin: 4px 0 0 10px ;
+    width: 88.5%;
+    float: right;
+}
+
+.itemPostExplain{
+    font-size: 68.8%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    line-height: 1.0;
+    clear: both;
+    color: #666;
+    padding-bottom: 0.5em;
+}
+
+.itemPostDate{
+    font-size: 11px;
+    line-height: 1.0;
+    padding-right: 0.3em;
+    display: inline-block;
+}
+
+.itemPostTitle{
+    margin-top: -10px;
+    font-size: 112.5%;
+    clear: both;
+    font-weight: bold;
+}
+
+.fleft{
+    line-height: 1;
+}
+
 .star5_rating{
     position: relative;
     z-index: 0;
