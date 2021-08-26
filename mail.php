@@ -253,7 +253,7 @@ if(($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1){
 }
 else if($confirmDsp == 1){ 
 
-/*　▼▼▼送信確認画面のレイアウト※編集可　オリジナルのデザインも適用可能▼▼▼　*/
+/*▼▼▼送信確認画面のレイアウト※編集可オリジナルのデザインも適用可能▼▼▼　*/
 ?>
 <!DOCTYPE HTML>
 <html lang="ja">
@@ -316,7 +316,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
 
 <!-- ▲ Headerやその他コンテンツなど　※自由に編集可 ▲-->
 
-<!-- ▼************ 送信内容表示部　※編集は自己責任で ************ ▼-->
+<!-- ▼************ 送信内容表示部※編集は自己責任で ************ ▼-->
 <div id="formWrap">
 <?php if($empty_flag == 1){ ?>
 <div align="center">

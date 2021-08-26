@@ -12,149 +12,53 @@
         <meta name="format-detection" content="telephone=no">
         <meta http-equiv="Content-Style-Type" content="text/css" />
 <style type="text/css">
-.Form {
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 720px;
+#formWrap {
+	width:700px;
+	margin:0 auto;
+	color:#555;
+	line-height:120%;
+	font-size:90%;
 }
-@media screen and (max-width: 480px) {
-  .Form {
-    margin-top: 40px;
-  }
+table.formTable{
+	width:100%;
+	margin:0 auto;
+	border-collapse:collapse;
 }
-.Form-Item {
-  border-top: 1px solid #ddd;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+table.formTable td,table.formTable th{
+	border:1px solid #ccc;
+	padding:10px;
 }
-@media screen and (max-width: 480px) {
-  .Form-Item {
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    flex-wrap: wrap;
-  }
+table.formTable th{
+	width:30%;
+	font-weight:normal;
+	background:#efefef;
+	text-align:left;
 }
-.Form-Item:nth-child(5) {
-  border-bottom: 1px solid #ddd;
+/*　簡易版レスポンシブ用CSS（必要最低限のみとしています。ブレークポイントも含め自由に設定下さい）　*/
+@media screen and (max-width:572px) {
+#formWrap {
+	width:95%;
+	margin:0 auto;
 }
-.Form-Item-Label {
-  width: 100%;
-  max-width: 248px;
-  letter-spacing: 0.05em;
-  font-weight: bold;
-  font-size: 18px;
+table.formTable th, table.formTable td {
+	width:auto;
+	display:block;
 }
-@media screen and (max-width: 480px) {
-  .Form-Item-Label {
-    max-width: inherit;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-  }
+table.formTable th {
+	margin-top:5px;
+	border-bottom:0;
 }
-.Form-Item-Label.isMsg {
-  margin-top: 8px;
-  margin-bottom: auto;
+input[type="text"], textarea {
+	width:80%;
+	padding:5px;
+	font-size:110%;
+	display:block;
 }
-@media screen and (max-width: 480px) {
-  .Form-Item-Label.isMsg {
-    margin-top: 0;
-  }
+input[type="submit"], input[type="reset"], input[type="button"] {
+	display:block;
+	width:100%;
+	height:40px;
 }
-.Form-Item-Label-Required {
-  border-radius: 6px;
-  margin-right: 8px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  width: 48px;
-  display: inline-block;
-  text-align: center;
-  background: #5bc8ac;
-  color: #fff;
-  font-size: 14px;
-}
-@media screen and (max-width: 480px) {
-  .Form-Item-Label-Required {
-    border-radius: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    width: 32px;
-    font-size: 10px;
-  }
-}
-.Form-Item-Input {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  margin-left: 40px;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 48px;
-  flex: 1;
-  width: 100%;
-  max-width: 410px;
-  background: #eaedf2;
-  font-size: 18px;
-}
-@media screen and (max-width: 480px) {
-  .Form-Item-Input {
-    margin-left: 0;
-    margin-top: 18px;
-    height: 40px;
-    flex: inherit;
-    font-size: 15px;
-  }
-}
-.Form-Item-Textarea {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  margin-left: 40px;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 216px;
-  flex: 1;
-  width: 100%;
-  max-width: 410px;
-  background: #eaedf2;
-  font-size: 18px;
-}
-@media screen and (max-width: 480px) {
-  .Form-Item-Textarea {
-    margin-top: 18px;
-    margin-left: 0;
-    height: 200px;
-    flex: inherit;
-    font-size: 15px;
-  }
-}
-.Form-Btn {
-  border-radius: 6px;
-  margin-top: 32px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 280px;
-  display: block;
-  letter-spacing: 0.05em;
-  background: #5bc8ac;
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-}
-@media screen and (max-width: 480px) {
-  .Form-Btn {
-    margin-top: 24px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    width: 160px;
-    font-size: 16px;
-  }
 }
 </style>
     </head>
@@ -346,6 +250,10 @@
                             <div class="banner">
                                 <h1 class="banner-title">※現在準備中です。</h1>
                             </div>
+                            <div id="formWrap">
+                                <h3>お問い合わせ</h3>
+                                <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
+                                <form method="post" action="mail.php">
                                   <table class="formTable">
                                     <tr>
                                       <th>ご用件</th>
@@ -360,8 +268,22 @@
                                       <td><input size="20" type="text" name="お名前" /> ※必須</td>
                                     </tr>
                                     <tr>
+                                      <th>電話番号（半角）</th>
+                                      <td><input size="30" type="text" name="電話番号" /></td>
+                                    </tr>
+                                    <tr>
                                       <th>Mail（半角）</th>
                                       <td><input size="30" type="text" name="Email" /> ※必須</td>
+                                    </tr>
+                                    <tr>
+                                      <th>性別</th>
+                                      <td><input type="radio" name="性別" value="男" /> 男　
+                                        <input type="radio" name="性別" value="女" /> 女 </td>
+                                    </tr>
+                                    <tr>
+                                      <th>サイトを知ったきっかけ</th>
+                                      <td><input name="サイトを知ったきっかけ[]" type="checkbox" value="友人・知人" /> 友人・知人　
+                                        <input name="サイトを知ったきっかけ[]" type="checkbox" value="検索エンジン" /> 検索エンジン</td>
                                     </tr>
                                     <tr>
                                       <th>お問い合わせ内容<br /></th>
@@ -369,29 +291,11 @@
                                     </tr>
                                   </table>
                                   <p align="center">
-                                    <input type="submit" value=" 確認 " /><input type="reset" value="リセット" />
+                                    <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
                                   </p>
+                                </form>
                                 <p>※IPアドレスを記録しております。いたずらや嫌がらせ等はご遠慮ください</p>
-                                <div id="formWrap">
-                                    <h3>お問い合わせ</h3>
-                                <form method="post" action="mail.php"></form>
-                                <div class="Form">
-                                    <div class="Form-Item">
-                                      <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
-                                      <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
-                                    </div>
-                                    <div class="Form-Item">
-                                      <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-                                      <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
-                                    </div>
-                                    <div class="Form-Item">
-                                      <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-                                      <textarea class="Form-Item-Textarea"></textarea>
-                                    </div>
-                                    <input type="submit" class="Form-Btn" value="送信する">
-                                  </div>
-                                </div>
-                            </div>
+                              </div>
                         </div>
                     </div>
                 </div>
