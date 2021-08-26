@@ -134,6 +134,11 @@
     justify-content: center;
 }
 
+.contact-h5{
+    font-family: YakuHanJPs_Narrow,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica","Arial",sans-serif;
+    margin: 30px 0 0 20px;
+}
+
 .column-fuze{
     width: 300px;
     display: flex;
@@ -214,6 +219,124 @@
     font-weight: bold;
 }
 
+/*------------------------------
+  画像付き吹き出し(会話)
+------------------------------*/
+/* 吹き出し 全体*/
+.talking {
+    margin-bottom:2em;
+    position:relative;
+}
+
+.talking:before , .talking:after {
+    clear:both;
+    content:"";
+    display:block;
+}
+
+/*アイコン*/
+.talking figure {
+    width:60px;     /*アイコンの横幅*/
+    height:60px;    /*アイコンの縦幅*/
+}
+
+.talking-left_icon {
+    float:left;
+    margin-right:20px;    /*アイコンの右の余白(左の吹き出し)*/
+}
+
+.talking-right_icon {
+    float:right;
+    margin-left:20px;    /*アイコンの左の余白(右の吹き出し)*/
+}
+
+.talking figure img {
+    width:100%;
+    height:100%;
+    margin:0;
+    border:2px solid #aaa;
+    border-radius:50%;    /*アイコンの角丸*/
+}
+
+/*アイコンの下の名前*/
+.talking-left_icon figcaption ,
+.talking-right_icon figcaption {
+    padding:2px 0 0;
+    font-size:12px;
+    text-align:center;
+}
+
+/*吹き出しのセリフ部分*/
+.talking-left , .talking-right  {
+    position:relative;
+    padding:10px;
+    border-style:solid;    /*枠線の線種*/
+    border-radius:10px;    /*セリフを入れる部分の角丸*/
+    max-width: calc(100% - 80px);
+}
+
+.talking p {
+    margin:0;
+}
+
+.talking p :last-child {
+    margin:0;
+}
+
+/*---左の吹き出し---*/
+.talking-left {
+    float:left;
+    border-width:2px;         /*枠線の太さ*/
+    border-color:lightpink;   /*枠線の色*/
+    background:lightpink;    /*背景色*/
+}
+
+/*左の吹き出し 三角*/
+.talking-left:before {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid lightpink;  /*三角の線になる部分*/
+    top: 15px;
+    left: -22px;
+}
+
+.talking-left:after {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid lightpink;
+    top: 15px;
+    left: -19px;
+}
+
+/*---右の吹き出し---*/
+.talking-right {
+    float:right;
+    border-width:2px;      /*枠線の太さ*/
+    border-color:khaki;    /*枠線の色*/
+    background:khaki;    /*背景色*/
+}
+
+/*右の吹き出し 三角*/
+.talking-right:before {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-left: 10px solid khaki;  /*三角の線になる部分*/
+    top: 15px;
+    right: -22px;
+}
+
+.talking-right:after {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-left: 10px solid khaki;
+    top: 15px;
+    right: -19px;
+}
+/*-------------------------------------------------*/
 
 .item-1{
     height: 120px;
@@ -239,6 +362,21 @@
     background: linear-gradient(0deg,#000 0,rgba(31,31,31,0) 100%);
     color: #FFFFFF;
     
+}
+
+.contact-div1{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.blue-back-p{
+    background-color: #006699;
+    color: #ffffff;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding: 1em 1.1em;
+    border-radius: 3px;
+    background: #13acca;
 }
 
 .horizontal-list{
@@ -271,6 +409,20 @@
         -webkit-overflow-scrolling: touch;
     }
   
+    .circle-img{
+        width: initial;
+        height: initial;
+        width:15vh;
+        height:15vh;
+        object-fit:cover;
+        border-radius:50%; 
+    }
+
+    .contact-h5{
+        margin: 5px 0 0 10px;
+    }
+
+
     .item-box {
         margin: 10px 5px 0px 5px;
         display: inline-block;
