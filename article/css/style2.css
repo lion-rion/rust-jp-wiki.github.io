@@ -146,6 +146,12 @@
     font-weight: bold;
 }
 
+.contents-c{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
 .loot-p{
     margin: 10px;
 }
