@@ -540,6 +540,10 @@
         font-size: 12px;
     }
 
-
+    .ad-wrap{
+        position: relative;
+        width: 100%;
+        margin: 25px auto 30px;
+    }
 
 }
