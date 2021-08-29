@@ -361,9 +361,13 @@
 /*-------------------------------------------------*/
 
 /*武器紹介-----------------------------*/
+
 .squer-weapon{
-    width: 100px;
+    background-color: #272925;
+    width: 240px;
+    border: 1px solid #161616;
 }
+
 
 .weaponskill-th{
     border: 1px solid #161616;
@@ -568,10 +572,7 @@
     
         
     /*武器紹介-----------------------------*/
-    .squer-weapon{
-        width: 100px;
-    }
-
+   
     .weaponskill-th{
         border: 1px solid #161616;
         background-color: #efefef;
