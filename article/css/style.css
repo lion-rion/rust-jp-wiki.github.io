@@ -1,3 +1,52 @@
+/*----------------お役立ち-----------------*/
+.helping{
+    margin: 50px 10px 20px 10px;
+}
+
+
+.index-picture{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.careful2{
+    color:#ff6c18
+}
+
+
+.article-table{
+    text-align: center;
+}
+
+.article-td{
+    font-size: 12px;
+}
+
+.ad-wrap{
+    position: relative;
+    width: 100%;
+    margin: 25px auto 30px;
+}
+
+
+
+.helping-h3{
+    background: black;
+    font-weight: bold;
+    color: white;
+    border-top: #CE422B 6px solid;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+}
+/*-------------------------------*/
+
+.ad-wrap{
+    position: relative;
+    width: 100%;
+    margin: 25px auto 30px;
+}
+
+
 .item-4{
     display: block;
     background-color: #ff7d03;
@@ -53,6 +102,10 @@
     background: linear-gradient(0deg,#000 0,rgba(31,31,31,0) 100%);
     color: #FFFFFF;
     
+}
+
+table a{
+    color: #5274E0;
 }
 
 .horizontal-list{
@@ -803,5 +856,35 @@ td {
         font-weight: bold;
         margin-bottom: -115px; /*余白を解消する値を入れます*/
     }
+
+    .index-picture{
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .helping{
+        margin: 20px 2px 10px 2px;
+    }
+    
+    .helping-h3{
+        background: black;
+        font-weight: bold;
+        color: white;
+        border-top: #CE422B 6px solid;
+        font-size: 20px;
+        padding: 5px 10px 10px 25px;
+        
+    }
+
+    .article-td{
+        font-size: 12px;
+    }
+
+    .ad-wrap{
+        position: relative;
+        width: 100%;
+        margin: 25px auto 30px;
+    }
+
   
 }
