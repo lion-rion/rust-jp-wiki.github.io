@@ -1,387 +1,443 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
   <loc>https://rust-wiki.net/</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>1.00</priority>
+  <priority>1.0</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/index.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/update.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/waza.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/beginner.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/contact.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rust-wiki.net/howtoget.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rust-wiki.net/ps4index.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rust-wiki.net/news.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/ps4news.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/lab.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/howtoget.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/ps4index.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/news.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/server.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/beginner-server.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/start.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/setting.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/play.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/question.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/weapon.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/equipment.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/tool.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/architecture.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/install.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/food.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/sozai.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/comp.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/elext.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/another.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/craft.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/reserch.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/recycler.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/vend.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/blue.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/elextsystem.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/build.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/tree.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/agri.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/mix.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/remote.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/app.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/drone.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/call.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/party.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/building.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/Monument.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/loot.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/oil.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/jack.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/safezone.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/camp.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/gyoson.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/bokuzyo.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/kayak.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/boat.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/Rhib.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/kikyu.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/mini.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/sheli.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/horse.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/car.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/workcart.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/air.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/heli.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/apc.html</loc>
-  <lastmod>2021-08-07T15:53:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:25+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/ch47.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/cargo.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/npc.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/haro.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/xmas.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/egg.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
   <loc>https://rust-wiki.net/raid.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
-  <loc>https://rust-wiki.net/zyakuten.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://rust-wiki.net/raid2.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
-  <loc>https://rust-wiki.net/heal.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://rust-wiki.net/weapon-article/m249.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
-  <loc>https://rust-wiki.net/bobm.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://rust-wiki.net/weapon-article/assault.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
-  <loc>https://rust-wiki.net/gun.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://rust-wiki.net/weapon-article/lr.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
-  <loc>https://rust-wiki.net/nif.html</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://rust-wiki.net/weapon-article/mp5.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
 <url>
-  <loc>https://rust-wiki.net/autotaret</loc>
-  <lastmod>2021-08-07T15:53:57+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://rust-wiki.net/weapon-article/m39.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
 </url>
-
+<url>
+  <loc>https://rust-wiki.net/weapon-article/gurelaunch.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/weapon-article/roke.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/weapon-article/fire.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/weapon-article/bolt.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/weapon-article/l96.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/weapon-article/thomp.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/weapon-article/smg.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/waza-article/jack-waza.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/waza-article/lock.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-08-30T21:51:26+09:00</lastmod>
+</url>
+<url>
+  <loc>https://rust-wiki.net/article/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://rust-wiki.net/anotder.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://rust-wiki.net/train.html</loc>
+  <priority>0.7</priority>
+</url>
 
 </urlset>
