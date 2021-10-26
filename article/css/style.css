@@ -244,14 +244,9 @@ header {
 /*左メニュー設定*/
 
 #contents-a {
-    flex: 2.5;
-    margin-right: 10px;
 }
 
 #contents-c {
-        position: absolute;
-        top: 500px;
-        left: 10px;
 }
 
 .left-menu-wrap {
@@ -565,9 +560,7 @@ td {
     /*コンテンツ全体設定*/
     
     #contents-wrap {
-        width: 100vw;
         display: flex;
-        flex-direction: column-reverse;
         justify-content: space-between;
         flex-wrap: wrap;
         margin: 0 auto;
